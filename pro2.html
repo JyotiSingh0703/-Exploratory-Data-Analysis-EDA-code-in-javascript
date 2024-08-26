@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Data Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        select, button {
+            margin: 10px 0;
+        }
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSV Data Analysis</h1>
+    <input type="file" id="csvFile" accept=".csv">
+    <select id="columnSelect">
+        <option value="">Select a column</option>
+    </select>
+    <button id="analyzeButton">Analyze</button>
+    <div id="results"></div>
+
+    <script src="analyisis.js"></script>
+</body>
+</html>
